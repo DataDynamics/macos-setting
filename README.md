@@ -115,6 +115,8 @@ git config --global credential.helper store
 ## .zshrc
 
 ```shell
+username=`id -un`
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -134,13 +136,13 @@ eval "$(pyenv init - bash)"
 eval "$(pyenv virtualenv-init -)"
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/fharenheit/.docker/completions $fpath)
+fpath=(/Users/${username}/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export JAVA_HOME=/Users/fharenheit/.sdkman/candidates/java/current
+export JAVA_HOME=/Users/${username}/.sdkman/candidates/java/current
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
