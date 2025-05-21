@@ -71,8 +71,7 @@ autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export JAVA_HOME=/Users/fharenheit/.sdkman/candidates/java/current
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
