@@ -10,7 +10,7 @@ macOS 설정
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
-echo "typeset -g POWERLEVEL9K_DIR_PATH_ABSOLUTE=true" >> .p10k.zh
+echo "typeset -g POWERLEVEL9K_DIR_PATH_ABSOLUTE=true" >> .p10k.zsh
 ```
 
 ### pyenv
