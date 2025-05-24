@@ -118,6 +118,8 @@ Found 18676 results (showing 20)
 
 ## Github
 
+다음의 설정으로 패스워드를 영구 저장하도록 설정합니다.
+
 ```bash
 git config --global user.name 김병곤
 git config --global user.email fharenheit@gmail.com
