@@ -62,6 +62,9 @@ https://github.com/go-nv/goenv
 
 ```shell
 brew install goenv
+echo 'eval "$(goenv init -)"' >> ~/.zshrc
+
+goenv install 1.24.3
 ```
 
 ### hget
@@ -175,6 +178,8 @@ compinit
 export JAVA_HOME=/Users/${username}/.sdkman/candidates/java/current
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+eval "$(goenv init -)"
 ```
 
 ## Maven Repository
