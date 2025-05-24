@@ -65,6 +65,7 @@ brew install goenv
 echo 'eval "$(goenv init -)"' >> ~/.zshrc
 
 goenv install 1.24.3
+goenv global 1.24.3
 ```
 
 ### hget
