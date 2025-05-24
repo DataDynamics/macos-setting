@@ -149,6 +149,8 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 ## Maven Repository
 
+`<USER_HOME>/.m2/settings.xml` 파일
+
 ```xml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -156,7 +158,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
   <mirrors>
     <mirror>
-      <id>OpenCloudEngine</id>
+      <id>central</id>
       <name>Open Cloud Engine Repo</name>
       <url>http://nexus.opencloudengine.org/repository/maven-public/</url>
       <mirrorOf>*</mirrorOf>
