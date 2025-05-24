@@ -1,6 +1,6 @@
-# macos-setting
+# macOS 설정
 
-macOS 설정
+macOS에서 개발에 필요한 다양한 프로그램과 환경을 설정하기 위한 정보를 제공하는 목적입니다.
 
 
 ## Installation
