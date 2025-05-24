@@ -56,6 +56,14 @@ sdk install ant
 brew install rbenv
 ```
 
+### goenv
+
+https://github.com/go-nv/goenv
+
+```shell
+brew install goenv
+```
+
 ### MCS
 
 ```shell
@@ -180,3 +188,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
   </mirrors>
 </settings>
 ```
+
+## Reference
+
+* https://github.com/phmullins/awesome-macos-commandline?tab=readme-ov-file
