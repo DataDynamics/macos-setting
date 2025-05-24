@@ -71,9 +71,8 @@ goenv global 1.24.3
 ### hget
 
 ```
-go get -d github.com/huydx/hget
-cd $GOPATH/src/github.com/huydx/hget
-make clean install
+go install github.com/huydx/hget@latest
+echo 'export PATH="$HOME/go/1.24.3/bin:$PATH"' >> ~/.zshrc
 ```
 
 ### MCS
