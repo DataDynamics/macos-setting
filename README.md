@@ -5,6 +5,18 @@ macOS 설정
 
 ## Installation
 
+### Brew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 필수 라이브러리 설치
+
+```
+brew install htop tree wget
+```
+
 ### Oh My Zsh + Power Level 10K
 
 ```shell
