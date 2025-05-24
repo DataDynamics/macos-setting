@@ -64,6 +64,14 @@ https://github.com/go-nv/goenv
 brew install goenv
 ```
 
+### hget
+
+```
+go get -d github.com/huydx/hget
+cd $GOPATH/src/github.com/huydx/hget
+make clean install
+```
+
 ### MCS
 
 ```shell
